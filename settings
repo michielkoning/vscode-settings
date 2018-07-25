@@ -1,0 +1,60 @@
+{
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"workbench.startupEditor": "newUntitledFile",
+	// The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+	"editor.tabSize": 2,
+	// Insert spaces when pressing Tab. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+	"editor.insertSpaces": false,
+	// Controls if the minimap is shown
+	"editor.minimap.enabled": true,
+	// Render the actual characters on a line (as opposed to color blocks)
+	"editor.minimap.renderCharacters": false,
+	// When enabled, will trim trailing whitespace when you save a file.
+	"files.trimTrailingWhitespace": true,
+	"files.exclude": {
+		"package-lock.json": true,
+		".gitignore": true,
+		"**/.git": true,
+		"**/.vs": true,
+		"**/node_modules/": true,
+		"**/*.br": true,
+		"**/*.map": true,
+		"_Deploy": true,
+		"npm-debug.log": true,
+		".vscode": true,
+		"dist": true,
+	},
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true,
+	// "prettier.eslintIntegration": true,
+	"extensions.ignoreRecommendations": false,
+	"window.zoomLevel": 0,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.snippetSuggestions": "top",
+	"telemetry.enableTelemetry": false,
+	"telemetry.enableCrashReporter": false,
+	"editor.wordWrap": "off",
+	"workbench.editor.enablePreview": true,
+	"editor.formatOnSave": true,
+	"workbench.activityBar.visible": true,
+	"editor.autoIndent": false,
+	"editor.renderWhitespace": "boundary",
+	"editor.detectIndentation": false,
+	"terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	"workbench.statusBar.visible": true,
+	"debug.hideActionBar": true,
+	"workbench.statusBar.feedback.visible": false,
+	"window.restoreWindows": "all",
+	"explorer.openEditors.visible": 0,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "vue",
+			"autoFix": true
+		}
+	],
+	"files.eol": "\n",
+	"explorer.confirmDragAndDrop": false
+}
